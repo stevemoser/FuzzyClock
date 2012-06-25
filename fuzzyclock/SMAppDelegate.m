@@ -8,6 +8,8 @@
 
 #import "SMAppDelegate.h"
 
+#import "SMWorldClockViewController.h"
+
 @implementation SMAppDelegate
 
 @synthesize window = _window;
@@ -19,12 +21,15 @@
     
     UITabBarController* tabBarViewController = [[UITabBarController alloc] init];
     
-    UIViewController* worldClockViewController = [[UIViewController alloc] init];
+    SMWorldClockViewController* worldClockViewController = [[SMWorldClockViewController alloc] init];
+    UINavigationController* worldClockNavigationViewController = [[UINavigationController alloc] initWithRootViewController:worldClockViewController];
+
+    
     UIViewController* alarmViewController = [[UIViewController alloc] init];
     UIViewController* stopWatchClockViewController = [[UIViewController alloc] init];
     UIViewController* timerViewController = [[UIViewController alloc] init];
 
-    [tabBarViewController setViewControllers:[NSArray arrayWithObjects:worldClockViewController,alarmViewController,stopWatchClockViewController,timerViewController, nil]];
+    [tabBarViewController setViewControllers:[NSArray arrayWithObjects:worldClockNavigationViewController,alarmViewController,stopWatchClockViewController,timerViewController, nil]];
     
     [[self window] setRootViewController:tabBarViewController];
     
