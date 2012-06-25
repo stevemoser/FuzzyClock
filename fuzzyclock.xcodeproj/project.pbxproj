@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		879F107E1597FA42008D9A49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 879F107D1597FA42008D9A49 /* UIKit.framework */; };
+		879F10801597FA42008D9A49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 879F107F1597FA42008D9A49 /* Foundation.framework */; };
+		879F10821597FA42008D9A49 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 879F10811597FA42008D9A49 /* CoreGraphics.framework */; };
+		879F10881597FA42008D9A49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 879F10861597FA42008D9A49 /* InfoPlist.strings */; };
+		879F108A1597FA42008D9A49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 879F10891597FA42008D9A49 /* main.m */; };
+		879F108E1597FA42008D9A49 /* SMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 879F108D1597FA42008D9A49 /* SMAppDelegate.m */; };
+		879F10961597FA42008D9A49 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 879F10951597FA42008D9A49 /* SenTestingKit.framework */; };
+		879F10971597FA42008D9A49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 879F107D1597FA42008D9A49 /* UIKit.framework */; };
+		879F10981597FA42008D9A49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 879F107F1597FA42008D9A49 /* Foundation.framework */; };
+		879F10A01597FA42008D9A49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 879F109E1597FA42008D9A49 /* InfoPlist.strings */; };
+		879F10A31597FA42008D9A49 /* fuzzyclockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 879F10A21597FA42008D9A49 /* fuzzyclockTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		879F10991597FA42008D9A49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 879F10701597FA42008D9A49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 879F10781597FA42008D9A49;
+			remoteInfo = fuzzyclock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		879F10791597FA42008D9A49 /* fuzzyclock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fuzzyclock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		879F107D1597FA42008D9A49 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		879F107F1597FA42008D9A49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		879F10811597FA42008D9A49 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		879F10851597FA42008D9A49 /* fuzzyclock-Info.plist */ = {isa = PBXFileReference; path = "fuzzyclock-Info.plist"; sourceTree = "<group>"; };
+		879F10871597FA42008D9A49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		879F10891597FA42008D9A49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		879F108B1597FA42008D9A49 /* fuzzyclock-Prefix.pch */ = {isa = PBXFileReference; path = "fuzzyclock-Prefix.pch"; sourceTree = "<group>"; };
+		879F108C1597FA42008D9A49 /* SMAppDelegate.h */ = {isa = PBXFileReference; path = SMAppDelegate.h; sourceTree = "<group>"; };
+		879F108D1597FA42008D9A49 /* SMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMAppDelegate.m; sourceTree = "<group>"; };
+		879F10941597FA42008D9A49 /* fuzzyclockTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fuzzyclockTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		879F10951597FA42008D9A49 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		879F109D1597FA42008D9A49 /* fuzzyclockTests-Info.plist */ = {isa = PBXFileReference; path = "fuzzyclockTests-Info.plist"; sourceTree = "<group>"; };
+		879F109F1597FA42008D9A49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		879F10A11597FA42008D9A49 /* fuzzyclockTests.h */ = {isa = PBXFileReference; path = fuzzyclockTests.h; sourceTree = "<group>"; };
+		879F10A21597FA42008D9A49 /* fuzzyclockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fuzzyclockTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		879F10761597FA42008D9A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879F107E1597FA42008D9A49 /* UIKit.framework in Frameworks */,
+				879F10801597FA42008D9A49 /* Foundation.framework in Frameworks */,
+				879F10821597FA42008D9A49 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879F10901597FA42008D9A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879F10961597FA42008D9A49 /* SenTestingKit.framework in Frameworks */,
+				879F10971597FA42008D9A49 /* UIKit.framework in Frameworks */,
+				879F10981597FA42008D9A49 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		879F106E1597FA42008D9A49 = {
+			isa = PBXGroup;
+			children = (
+				879F10831597FA42008D9A49 /* fuzzyclock */,
+				879F109B1597FA42008D9A49 /* fuzzyclockTests */,
+				879F107C1597FA42008D9A49 /* Frameworks */,
+				879F107A1597FA42008D9A49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		879F107A1597FA42008D9A49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				879F10791597FA42008D9A49 /* fuzzyclock.app */,
+				879F10941597FA42008D9A49 /* fuzzyclockTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		879F107C1597FA42008D9A49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				879F107D1597FA42008D9A49 /* UIKit.framework */,
+				879F107F1597FA42008D9A49 /* Foundation.framework */,
+				879F10811597FA42008D9A49 /* CoreGraphics.framework */,
+				879F10951597FA42008D9A49 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		879F10831597FA42008D9A49 /* fuzzyclock */ = {
+			isa = PBXGroup;
+			children = (
+				879F108C1597FA42008D9A49 /* SMAppDelegate.h */,
+				879F108D1597FA42008D9A49 /* SMAppDelegate.m */,
+				879F10841597FA42008D9A49 /* Supporting Files */,
+			);
+			path = fuzzyclock;
+			sourceTree = "<group>";
+		};
+		879F10841597FA42008D9A49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				879F10851597FA42008D9A49 /* fuzzyclock-Info.plist */,
+				879F10861597FA42008D9A49 /* InfoPlist.strings */,
+				879F10891597FA42008D9A49 /* main.m */,
+				879F108B1597FA42008D9A49 /* fuzzyclock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		879F109B1597FA42008D9A49 /* fuzzyclockTests */ = {
+			isa = PBXGroup;
+			children = (
+				879F10A11597FA42008D9A49 /* fuzzyclockTests.h */,
+				879F10A21597FA42008D9A49 /* fuzzyclockTests.m */,
+				879F109C1597FA42008D9A49 /* Supporting Files */,
+			);
+			path = fuzzyclockTests;
+			sourceTree = "<group>";
+		};
+		879F109C1597FA42008D9A49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				879F109D1597FA42008D9A49 /* fuzzyclockTests-Info.plist */,
+				879F109E1597FA42008D9A49 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		879F10781597FA42008D9A49 /* fuzzyclock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 879F10A61597FA42008D9A49 /* Build configuration list for PBXNativeTarget "fuzzyclock" */;
+			buildPhases = (
+				879F10751597FA42008D9A49 /* Sources */,
+				879F10761597FA42008D9A49 /* Frameworks */,
+				879F10771597FA42008D9A49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fuzzyclock;
+			productName = fuzzyclock;
+			productReference = 879F10791597FA42008D9A49 /* fuzzyclock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		879F10931597FA42008D9A49 /* fuzzyclockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 879F10A91597FA42008D9A49 /* Build configuration list for PBXNativeTarget "fuzzyclockTests" */;
+			buildPhases = (
+				879F108F1597FA42008D9A49 /* Sources */,
+				879F10901597FA42008D9A49 /* Frameworks */,
+				879F10911597FA42008D9A49 /* Resources */,
+				879F10921597FA42008D9A49 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				879F109A1597FA42008D9A49 /* PBXTargetDependency */,
+			);
+			name = fuzzyclockTests;
+			productName = fuzzyclockTests;
+			productReference = 879F10941597FA42008D9A49 /* fuzzyclockTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		879F10701597FA42008D9A49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SM;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Handle, LLC";
+			};
+			buildConfigurationList = 879F10731597FA42008D9A49 /* Build configuration list for PBXProject "fuzzyclock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 879F106E1597FA42008D9A49;
+			productRefGroup = 879F107A1597FA42008D9A49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				879F10781597FA42008D9A49 /* fuzzyclock */,
+				879F10931597FA42008D9A49 /* fuzzyclockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		879F10771597FA42008D9A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879F10881597FA42008D9A49 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879F10911597FA42008D9A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879F10A01597FA42008D9A49 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		879F10921597FA42008D9A49 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		879F10751597FA42008D9A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879F108A1597FA42008D9A49 /* main.m in Sources */,
+				879F108E1597FA42008D9A49 /* SMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879F108F1597FA42008D9A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879F10A31597FA42008D9A49 /* fuzzyclockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		879F109A1597FA42008D9A49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 879F10781597FA42008D9A49 /* fuzzyclock */;
+			targetProxy = 879F10991597FA42008D9A49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		879F10861597FA42008D9A49 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				879F10871597FA42008D9A49 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		879F109E1597FA42008D9A49 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				879F109F1597FA42008D9A49 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		879F10A41597FA42008D9A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		879F10A51597FA42008D9A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		879F10A71597FA42008D9A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fuzzyclock/fuzzyclock-Prefix.pch";
+				INFOPLIST_FILE = "fuzzyclock/fuzzyclock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		879F10A81597FA42008D9A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fuzzyclock/fuzzyclock-Prefix.pch";
+				INFOPLIST_FILE = "fuzzyclock/fuzzyclock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		879F10AA1597FA42008D9A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fuzzyclock.app/fuzzyclock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fuzzyclock/fuzzyclock-Prefix.pch";
+				INFOPLIST_FILE = "fuzzyclockTests/fuzzyclockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		879F10AB1597FA42008D9A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fuzzyclock.app/fuzzyclock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fuzzyclock/fuzzyclock-Prefix.pch";
+				INFOPLIST_FILE = "fuzzyclockTests/fuzzyclockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		879F10731597FA42008D9A49 /* Build configuration list for PBXProject "fuzzyclock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879F10A41597FA42008D9A49 /* Debug */,
+				879F10A51597FA42008D9A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		879F10A61597FA42008D9A49 /* Build configuration list for PBXNativeTarget "fuzzyclock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879F10A71597FA42008D9A49 /* Debug */,
+				879F10A81597FA42008D9A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		879F10A91597FA42008D9A49 /* Build configuration list for PBXNativeTarget "fuzzyclockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879F10AA1597FA42008D9A49 /* Debug */,
+				879F10AB1597FA42008D9A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 879F10701597FA42008D9A49 /* Project object */;
+}
