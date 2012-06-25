@@ -35,17 +35,17 @@
 		879F107D1597FA42008D9A49 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		879F107F1597FA42008D9A49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		879F10811597FA42008D9A49 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		879F10851597FA42008D9A49 /* fuzzyclock-Info.plist */ = {isa = PBXFileReference; path = "fuzzyclock-Info.plist"; sourceTree = "<group>"; };
+		879F10851597FA42008D9A49 /* fuzzyclock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fuzzyclock-Info.plist"; sourceTree = "<group>"; };
 		879F10871597FA42008D9A49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		879F10891597FA42008D9A49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		879F108B1597FA42008D9A49 /* fuzzyclock-Prefix.pch */ = {isa = PBXFileReference; path = "fuzzyclock-Prefix.pch"; sourceTree = "<group>"; };
-		879F108C1597FA42008D9A49 /* SMAppDelegate.h */ = {isa = PBXFileReference; path = SMAppDelegate.h; sourceTree = "<group>"; };
+		879F108B1597FA42008D9A49 /* fuzzyclock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fuzzyclock-Prefix.pch"; sourceTree = "<group>"; };
+		879F108C1597FA42008D9A49 /* SMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMAppDelegate.h; sourceTree = "<group>"; };
 		879F108D1597FA42008D9A49 /* SMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMAppDelegate.m; sourceTree = "<group>"; };
 		879F10941597FA42008D9A49 /* fuzzyclockTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fuzzyclockTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		879F10951597FA42008D9A49 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		879F109D1597FA42008D9A49 /* fuzzyclockTests-Info.plist */ = {isa = PBXFileReference; path = "fuzzyclockTests-Info.plist"; sourceTree = "<group>"; };
+		879F109D1597FA42008D9A49 /* fuzzyclockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fuzzyclockTests-Info.plist"; sourceTree = "<group>"; };
 		879F109F1597FA42008D9A49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		879F10A11597FA42008D9A49 /* fuzzyclockTests.h */ = {isa = PBXFileReference; path = fuzzyclockTests.h; sourceTree = "<group>"; };
+		879F10A11597FA42008D9A49 /* fuzzyclockTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fuzzyclockTests.h; sourceTree = "<group>"; };
 		879F10A21597FA42008D9A49 /* fuzzyclockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fuzzyclockTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

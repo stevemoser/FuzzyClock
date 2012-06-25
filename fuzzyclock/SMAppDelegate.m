@@ -16,8 +16,19 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    
+    UITabBarController* tabBarViewController = [[UITabBarController alloc] init];
+    
+    UIViewController* worldClockViewController = [[UIViewController alloc] init];
+    UIViewController* alarmViewController = [[UIViewController alloc] init];
+    UIViewController* stopWatchClockViewController = [[UIViewController alloc] init];
+    UIViewController* timerViewController = [[UIViewController alloc] init];
+
+    [tabBarViewController setViewControllers:[NSArray arrayWithObjects:worldClockViewController,alarmViewController,stopWatchClockViewController,timerViewController, nil]];
+    
+    [[self window] setRootViewController:tabBarViewController];
+    
+    [[self window] makeKeyAndVisible];
     return YES;
 }
 
